@@ -1,0 +1,21 @@
+@media (max-width: 580px) {
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    header .menu nav ul a{
+        padding: 15px 10px;
+    }
+
+    header.menu img{
+        min-width: 330px;
+    }
+
+    main .container ul{
+        flex-direction: column;
+    }
+
+    section .section-box .scale{
+        width: 250px;
+    }

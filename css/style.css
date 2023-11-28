@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,p,a,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+   
+    min-width: 360px;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 360px;
+}
+
+header .menu{
+    background: url(../img/Hamburger_Tomatoes_French_fries_Knife_Black_576869_1280x853.jpg) no-repeat center/cover;
+    height: 769px;
+    min-width: 360px;
+    
+}
+
+header .menu nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header .menu nav .logo{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background: #69cf17;
+    border: 3px solid #76c932;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 16px;
+
+}
+
+header .menu nav i{
+    font-size: 25px;
+}
+
+header .menu nav ul{
+    display: flex;
+}
+
+header .menu nav ul a{
+    font-size: 20px;
+    color: #69cf17;
+    margin-top: 40px;
+    padding-left: 50px;
+    display: flex;
+    text-align: center;
+    transition: 0.5s;
+    align-items: center;
+    padding: 25px 15px 28px 14px;
+
+}
+
+header .menu nav ul a:hover{
+    background: #509d13;
+    
+}
+
+header .menu  h1{
+     font-size: 50px;
+     color: #69cf17;
+     padding-top: 186px;
+     text-transform: uppercase;
+}
+
+header .menu h2{
+    font-size: 40px;
+    color: white;
+    background: #509d13;
+    width: 350px;
+    height: 100px;
+    opacity: .6;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 78px;
+}
+
+main{
+    background: black;
+    
+}
+
+main ul{
+    display: flex;
+    
+}
+
+main ul a{
+    color:#7a7a7a;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 68px;
+    font-size: 15px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+section .section-box{
+    width: 350px;
+}
+
+section .section-box .scale img{
+    width: 350px;
+    height: 345px;
+    transition: 0.5s;
+
+}
+
+section .section-box .scale img:hover{
+    background: #69cf17;
+    opacity: .5;
+}
+
+section .section-box h2{
+    margin-top: 38px;
+    font-size: 25px;
+    color: #69cf17;
+}
+
+section .section-box p{
+    font-size: 14px;
+    margin-top: 22px;
+    color: #dedede;
+    margin-bottom: 56px;
+}
+
+section .section-box .scale p{
+    color: white;
+    background: #509d13;
+    width: 188px;
+    height: 58px;
+    opacity: .6;
+    text-align: center;
+    font-size: 40px;
+}
+
+main .text{
+    background: url(../img/section_bg.jpg);
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+main .text h2{
+    color: #69cf17;
+    text-align: center;
+    padding-bottom: 26px;
+    padding-top: 50px;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+main .text h2:after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:50%;
+    width:60%;
+    height:2px;
+    margin-left:-30%;
+    background:#76c932;
+    
+}
+main .text p{
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 164px;
+    padding-right: 160px;
+    padding-bottom: 125px;
+}
+
+.map{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.map h2{
+    background: #fff;
+    text-align: center;
+    color: #69cf17;
+    font-size: 36px;
+    padding: 52px;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+footer{
+    background: url(../img/footer_bg.jpg);
+}
+
+footer .off .logo{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background: #69cf17;
+    border: 3px solid #76c932;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-top: 40px;
+
+}
+
+footer{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i{
+    font-size: 25px;
+}
+
+footer p{
+    padding-top: 40px;
+    color: #69cf17;
+    padding-right: 160px;
+}
+
+footer .on{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .on i {
+    color: white;
+}
